@@ -35,4 +35,4 @@ async def ban(ctx, member : discord.Member, *, reason=None):
   await member.ban(reason=reason)
   await ctx.send('Banned :heart:')
 
-client.run('NzM5OTQwNzgyMzUzNjc4NDc3.XyhxjQ.Ep58sjof3JzY6zyFDVK6f3MbeR0')
+client.run(os.environ['TOKEN'])
